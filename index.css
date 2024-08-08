@@ -1,0 +1,104 @@
+body {
+    
+    background: #1B244A;
+    width: 500px;
+    margin: 0 auto;
+    
+}
+
+@font-face {
+    font-family: 'scoreBoard';
+    src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.teamBoards {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.scoreCard {
+    text-align: center;
+    width: 155px;
+    height: 155px;
+    background: black;
+    margin-top: 21px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+   
+}
+
+.score {
+    font-family: 'scoreBoard';
+    color: #F94F6D;
+    font-size: 90px;
+    margin: 0 auto;
+    padding: 10px 19px 5px 19px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.addPoints {
+    width: 45px;
+    height: 45px;
+    background: none;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    margin: 25px 5px;
+    border-radius: 5px;
+    font-family: 'scoreBoard';
+    text-align: center;
+    cursor: pointer;
+}
+
+.addPoints:focus {
+    outline: none;
+}
+
+.resetContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.resetBtn {
+    font-family: 'scoreBoard';
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background: #047857;
+    color: white; 
+    cursor: pointer;
+}
+
+.resetBtn:focus {
+    outline: none;
+}
+
+
+
+
+
